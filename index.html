@@ -70,8 +70,8 @@ tr:nth-child(even) {
   height: 95vh;
 }
   </style>
-<script type="text/javascript">var showing = [1, 0, 0, 0];
-  var questions = ['i0', 'i1', 'q', 'q2'];
+<script type="text/javascript">var showing = [1, 0, 0, 0, 0];
+  var questions = ['i0', 'i1', 'q_demographics', 'q', 'q2'];
   function next() {
       var qElems = [];
       for (var i = 0; i < questions.length; i++) {
@@ -147,6 +147,53 @@ Please look at all the images when you scroll down on the next page - you will t
   </div>
   </div>
 </div>
+<div id="q_demographics"  style="display: none">
+  <h2>Please give us a little background about yourself</h2>
+  <label for="age">How old are you in years?</label>
+  <input type="text" id="age" name="age"><br><br>
+  
+  <p>What is your gender?</p>
+  <input type="radio" id="female" name="gender" value="HTML">
+  <label for="html">Female</label>
+  <input type="radio" id="male" name="gender" value="CSS">
+  <label for="css">Male</label>
+  <input type="radio" id="other" name="gender" value="CSS">
+  <label for="css">Other</label><br><br>
+  
+  <p>Are you color blind?</p>
+  <input type="radio" id="yes" name="gender" value="HTML">
+  <label for="html">Yes</label>
+  <input type="radio" id="no" name="gender" value="CSS">
+  <label for="css">No</label><br><br>
+  
+  <p>How often are you using social media:</p>
+  <input type="radio" id="never" name="social_media_usage" value="HTML">
+  <label for="html">Never</label>
+  <input type="radio" id="rarely" name="social_media_usage" value="CSS">
+  <label for="css">Less than once daily</label>
+  <input type="radio" id="daily" name="social_media_usage" value="CSS">
+  <label for="css">About once daily</label>
+  <input type="radio" id="several_times_daily" name="social_media_usage" value="JavaScript">
+  <label for="javascript">Several times daily</label>
+  <input type="radio" id="many_times_daily" name="social_media_usage" value="JavaScript">
+  <label for="javascript">Many times daily</label>
+  <input type="radio" id="all_day_long" name="social_media_usage" value="JavaScript">
+  <label for="javascript">All day long</label>
+  
+  <p>Are you using Instagram:</p>
+  <input type="radio" id="never" name="instagram_usage" value="HTML">
+  <label for="html">Never</label>
+  <input type="radio" id="rarely" name="instagram_usage" value="CSS">
+  <label for="css">Less than once daily</label>
+  <input type="radio" id="daily" name="instagram_usage" value="CSS">
+  <label for="css">About once daily</label>
+  <input type="radio" id="several_times_daily" name="instagram_usage" value="JavaScript">
+  <label for="javascript">Several times daily</label>
+  <input type="radio" id="many_times_daily" name="instagram_usage" value="JavaScript">
+  <label for="javascript">Many times daily</label>
+  <input type="radio" id="all_day_long" name="instagram_usage" value="JavaScript">
+  <label for="javascript">All day long</label>
+</div>
 <div id="q"  style="display: none">
   <form>
 <p>How certain are you that you saw a <b>Coca-Cola</b> logo in the Instagram Feed?</p>
@@ -211,7 +258,7 @@ Please look at all the images when you scroll down on the next page - you will t
   <input type="radio" id="javascript" name="brand10" value="JavaScript"><label for="javascript">Very uncertain</label>
 </form> 
 </div>
-<div id="q2">
+<div id="q2" style="display: none">
   <h2>How certain are you that you have seen the following brand logos in the Instagram feed on the previous page?</h2>
 
 <table>
