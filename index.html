@@ -5,6 +5,21 @@
   <meta name="mobile-web-app-capable" content="yes">
   <title>Test Instagram View</title>
   <style type="text/css">
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
   .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -55,8 +70,8 @@
   height: 95vh;
 }
   </style>
-<script type="text/javascript">var showing = [1, 0, 0];
-  var questions = ['i0', 'i1', 'q'];
+<script type="text/javascript">var showing = [1, 0, 0, 0];
+  var questions = ['i0', 'i1', 'q', 'q2'];
   function next() {
       var qElems = [];
       for (var i = 0; i < questions.length; i++) {
@@ -195,6 +210,180 @@ Please look at all the images when you scroll down on the next page - you will t
   <input type="radio" id="css" name="brand10" value="CSS"><label for="css"></label>
   <input type="radio" id="javascript" name="brand10" value="JavaScript"><label for="javascript">Very uncertain</label>
 </form> 
+</div>
+<div id="q2">
+  <h2>How certain are you that you have seen the following brand logos in the Instagram feed on the previous page?</h2>
+
+<table>
+  <tr>
+    <th width="16%">&nbsp;</th>
+    <th width="18%">Very certain</th>
+    <th width="16%">&nbsp;</th>
+    <th width="16%">&nbsp;</th>
+    <th width="16%">&nbsp;</th>
+    <th width="18%">Very uncertain</th>
+  </tr>
+  <tr>
+    <td><b>Coca-Cola</b></td>
+    <td><input type="radio" id="question" name="question1" value="1"></td>
+    <td><input type="radio" id="question" name="question1" value="2"></td>
+    <td><input type="radio" id="question" name="question1" value="3"></td>
+    <td><input type="radio" id="question" name="question1" value="4"></td>
+    <td><input type="radio" id="question" name="question1" value="5"></td>
+  </tr>
+  <tr>
+    <td><b>Pepsi</b></td>
+    <td><input type="radio" id="question" name="question2" value="1"></td>
+    <td><input type="radio" id="question" name="question2" value="2"></td>
+    <td><input type="radio" id="question" name="question2" value="3"></td>
+    <td><input type="radio" id="question" name="question2" value="4"></td>
+    <td><input type="radio" id="question" name="question2" value="5"></td>
+  </tr>
+  <tr>
+    <td><b>McDonald's</b></td>
+    <td><input type="radio" id="question" name="question3" value="1"></td>
+    <td><input type="radio" id="question" name="question3" value="2"></td>
+    <td><input type="radio" id="question" name="question3" value="3"></td>
+    <td><input type="radio" id="question" name="question3" value="4"></td>
+    <td><input type="radio" id="question" name="question3" value="5"></td>
+  </tr>
+  <tr>
+    <td><b>Burger King</b></td>
+    <td><input type="radio" id="question" name="question4" value="1"></td>
+    <td><input type="radio" id="question" name="question4" value="2"></td>
+    <td><input type="radio" id="question" name="question4" value="3"></td>
+    <td><input type="radio" id="question" name="question4" value="4"></td>
+    <td><input type="radio" id="question" name="question4" value="5"></td>
+  </tr>
+  <tr>
+    <td><b>Wendy's</b></td>
+    <td><input type="radio" id="question" name="question5" value="1"></td>
+    <td><input type="radio" id="question" name="question5" value="2"></td>
+    <td><input type="radio" id="question" name="question5" value="3"></td>
+    <td><input type="radio" id="question" name="question5" value="4"></td>
+    <td><input type="radio" id="question" name="question5" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question6" value="1"></td>
+    <td><input type="radio" id="question" name="question6" value="2"></td>
+    <td><input type="radio" id="question" name="question6" value="3"></td>
+    <td><input type="radio" id="question" name="question6" value="4"></td>
+    <td><input type="radio" id="question" name="question6" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question7" value="1"></td>
+    <td><input type="radio" id="question" name="question7" value="2"></td>
+    <td><input type="radio" id="question" name="question7" value="3"></td>
+    <td><input type="radio" id="question" name="question7" value="4"></td>
+    <td><input type="radio" id="question" name="question7" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question8" value="1"></td>
+    <td><input type="radio" id="question" name="question8" value="2"></td>
+    <td><input type="radio" id="question" name="question8" value="3"></td>
+    <td><input type="radio" id="question" name="question8" value="4"></td>
+    <td><input type="radio" id="question" name="question8" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question9" value="1"></td>
+    <td><input type="radio" id="question" name="question9" value="2"></td>
+    <td><input type="radio" id="question" name="question9" value="3"></td>
+    <td><input type="radio" id="question" name="question9" value="4"></td>
+    <td><input type="radio" id="question" name="question9" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question10" value="1"></td>
+    <td><input type="radio" id="question" name="question10" value="2"></td>
+    <td><input type="radio" id="question" name="question10" value="3"></td>
+    <td><input type="radio" id="question" name="question10" value="4"></td>
+    <td><input type="radio" id="question" name="question10" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question11" value="1"></td>
+    <td><input type="radio" id="question" name="question11" value="2"></td>
+    <td><input type="radio" id="question" name="question11" value="3"></td>
+    <td><input type="radio" id="question" name="question11" value="4"></td>
+    <td><input type="radio" id="question" name="question11" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question12" value="1"></td>
+    <td><input type="radio" id="question" name="question12" value="2"></td>
+    <td><input type="radio" id="question" name="question12" value="3"></td>
+    <td><input type="radio" id="question" name="question12" value="4"></td>
+    <td><input type="radio" id="question" name="question12" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question13" value="1"></td>
+    <td><input type="radio" id="question" name="question13" value="2"></td>
+    <td><input type="radio" id="question" name="question13" value="3"></td>
+    <td><input type="radio" id="question" name="question13" value="4"></td>
+    <td><input type="radio" id="question" name="question13" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question14" value="1"></td>
+    <td><input type="radio" id="question" name="question14" value="2"></td>
+    <td><input type="radio" id="question" name="question14" value="3"></td>
+    <td><input type="radio" id="question" name="question14" value="4"></td>
+    <td><input type="radio" id="question" name="question14" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question15" value="1"></td>
+    <td><input type="radio" id="question" name="question15" value="2"></td>
+    <td><input type="radio" id="question" name="question15" value="3"></td>
+    <td><input type="radio" id="question" name="question15" value="4"></td>
+    <td><input type="radio" id="question" name="question15" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question16" value="1"></td>
+    <td><input type="radio" id="question" name="question16" value="2"></td>
+    <td><input type="radio" id="question" name="question16" value="3"></td>
+    <td><input type="radio" id="question" name="question16" value="4"></td>
+    <td><input type="radio" id="question" name="question16" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question17" value="1"></td>
+    <td><input type="radio" id="question" name="question17" value="2"></td>
+    <td><input type="radio" id="question" name="question17" value="3"></td>
+    <td><input type="radio" id="question" name="question17" value="4"></td>
+    <td><input type="radio" id="question" name="question17" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question18" value="1"></td>
+    <td><input type="radio" id="question" name="question18" value="2"></td>
+    <td><input type="radio" id="question" name="question18" value="3"></td>
+    <td><input type="radio" id="question" name="question18" value="4"></td>
+    <td><input type="radio" id="question" name="question18" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question19" value="1"></td>
+    <td><input type="radio" id="question" name="question19" value="2"></td>
+    <td><input type="radio" id="question" name="question19" value="3"></td>
+    <td><input type="radio" id="question" name="question19" value="4"></td>
+    <td><input type="radio" id="question" name="question19" value="5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" id="question" name="question20" value="1"></td>
+    <td><input type="radio" id="question" name="question20" value="2"></td>
+    <td><input type="radio" id="question" name="question20" value="3"></td>
+    <td><input type="radio" id="question" name="question20" value="4"></td>
+    <td><input type="radio" id="question" name="question20" value="5"></td>
+  </tr>
+</table>
 </div>
 </body>
 </html>
